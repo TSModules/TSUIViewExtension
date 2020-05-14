@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TSUIViewExtension_Tests' do
+  pod 'TSUIViewExtension', :path => '../'
+  
+  
+end
