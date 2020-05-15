@@ -12,6 +12,7 @@
 		72E5D148246D2A01005BF256 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E5D147246D2A01005BF256 /* UIView+Layer.swift */; };
 		72E5D14A246D2AFC005BF256 /* UIView+Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E5D149246D2AFC005BF256 /* UIView+Find.swift */; };
 		72E5D14C246D5B3D005BF256 /* UIView+SnapShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E5D14B246D5B3D005BF256 /* UIView+SnapShot.swift */; };
+		72E5D14E246E37CE005BF256 /* UIView+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E5D14D246E37CE005BF256 /* UIView+Blur.swift */; };
 		7D2D4B57457C37E97EC8B667F5F6D53F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		84BC951CD8AE2BC3DCDF634A9CC20E95 /* Pods-TSUIViewExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C2D4552D4B3EBE4F81373E215D4247 /* Pods-TSUIViewExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E57D229AD80B0F9F8A1F11527A9E220D /* TSUIViewExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A5952331F5E02B4BFC6105DF2F353E /* TSUIViewExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +43,7 @@
 		72E5D147246D2A01005BF256 /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
 		72E5D149246D2AFC005BF256 /* UIView+Find.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Find.swift"; sourceTree = "<group>"; };
 		72E5D14B246D5B3D005BF256 /* UIView+SnapShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SnapShot.swift"; sourceTree = "<group>"; };
+		72E5D14D246E37CE005BF256 /* UIView+Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Blur.swift"; sourceTree = "<group>"; };
 		755BB88F2B87DFF127B41CA32E00C41D /* TSUIViewExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSUIViewExtension.debug.xcconfig; sourceTree = "<group>"; };
 		7EFC8BC027CD035B0998DFBF40CB46B1 /* TSUIViewExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSUIViewExtension-Info.plist"; sourceTree = "<group>"; };
 		7F63E2D4C7AC90170B57119887416FEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				72E5D147246D2A01005BF256 /* UIView+Layer.swift */,
 				72E5D149246D2AFC005BF256 /* UIView+Find.swift */,
 				72E5D14B246D5B3D005BF256 /* UIView+SnapShot.swift */,
+				72E5D14D246E37CE005BF256 /* UIView+Blur.swift */,
 				9929606458475B9AF91BA3F6473DA117 /* Pod */,
 				F74716254D8890EE6DAFC04F5CCA7193 /* Support Files */,
 			);
@@ -304,6 +307,7 @@
 				72E5D146246D2896005BF256 /* UIView+Frame.swift in Sources */,
 				72E5D14C246D5B3D005BF256 /* UIView+SnapShot.swift in Sources */,
 				72E5D14A246D2AFC005BF256 /* UIView+Find.swift in Sources */,
+				72E5D14E246E37CE005BF256 /* UIView+Blur.swift in Sources */,
 				72E5D148246D2A01005BF256 /* UIView+Layer.swift in Sources */,
 				EDA93ACF870EB87DB7FC296DDBEC0845 /* TSUIViewExtension-dummy.m in Sources */,
 			);
