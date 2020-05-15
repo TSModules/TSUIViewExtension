@@ -1,0 +1,6 @@
+framework module TSUIViewExtension {
+  umbrella header "TSUIViewExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

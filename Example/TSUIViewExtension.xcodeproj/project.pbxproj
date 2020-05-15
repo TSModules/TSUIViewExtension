@@ -13,14 +13,14 @@
 
 /* Begin PBXFileReference section */
 		067F4F9EA8BB3B2372D0BF23 /* Pods-TSUIViewExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSUIViewExtension_Tests.release.xcconfig"; path = "Target Support Files/Pods-TSUIViewExtension_Tests/Pods-TSUIViewExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0A797C78EFF803EE243D1D47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A797C78EFF803EE243D1D47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		50B751301583FE078DE3EC7B /* Pods_TSUIViewExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSUIViewExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* TSUIViewExtension_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSUIViewExtension_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7C753A098C7FF1661EEAF3D7 /* TSUIViewExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TSUIViewExtension.podspec; path = ../TSUIViewExtension.podspec; sourceTree = "<group>"; };
+		7C753A098C7FF1661EEAF3D7 /* TSUIViewExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TSUIViewExtension.podspec; path = ../TSUIViewExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE24ADF31156BB5A2C0BBC77 /* Pods-TSUIViewExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSUIViewExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TSUIViewExtension_Tests/Pods-TSUIViewExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6D446A99E55C0BC9358E9A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D6D446A99E55C0BC9358E9A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				CE24ADF31156BB5A2C0BBC77 /* Pods-TSUIViewExtension_Tests.debug.xcconfig */,
 				067F4F9EA8BB3B2372D0BF23 /* Pods-TSUIViewExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

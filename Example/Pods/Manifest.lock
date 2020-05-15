@@ -1,0 +1,16 @@
+PODS:
+  - TSUIViewExtension (0.1.0)
+
+DEPENDENCIES:
+  - TSUIViewExtension (from `../`)
+
+EXTERNAL SOURCES:
+  TSUIViewExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSUIViewExtension: 6a0c89583a24cfd8219de5b0d2847d28e0c310eb
+
+PODFILE CHECKSUM: 00ceadaf97966e583aa3c8674f87516cca8b2d23
+
+COCOAPODS: 1.9.1

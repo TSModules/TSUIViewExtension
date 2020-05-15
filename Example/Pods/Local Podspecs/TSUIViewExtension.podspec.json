@@ -1,0 +1,22 @@
+{
+  "name": "TSUIViewExtension",
+  "version": "0.1.0",
+  "summary": "A short description of TSUIViewExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TSWang/TSUIViewExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TSWang": "cgwangding@163.com"
+  },
+  "source": {
+    "git": "https://github.com/TSWang/TSUIViewExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TSUIViewExtension/Classes/**/*"
+}
